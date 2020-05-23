@@ -48,27 +48,28 @@ aside.languages {
     margin-bottom: 0.5em;
 }
 
-li nav {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    float: left;
+#fname{
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
 }
 
-li nav:hover {
-    background-color: #111;
+#lname{
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
 }
 
-li nav:active {
-    background-color: #4caf50;
+#country{
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
 }
 
-
-#homepagetext div {
-    background: #c3dbff;
-    padding: 50px 50px 100px;
-    margin: 0;
-    color: #333;
+#submit{
+  height: 40px;
+  width: 100px;
+  color: white;
+  background-color: blue;
+  border-radius: 5px;
 }

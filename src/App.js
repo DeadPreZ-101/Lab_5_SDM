@@ -5,13 +5,6 @@ function App() {
   return (
     <body>
       <div className="App">
-         <ul id="menu">
-              <li>
-                <nav><a href="page1.js">Home</a></nav>
-                <nav><a href="about.html">About</a></nav>
-              </li>
-          </ul>
-
           <aside class="languages">
               <div id="homepagetext">
                   <div>
@@ -43,5 +36,6 @@ function App() {
     </body>
   );
 }
+
 
 export default App;

@@ -7,7 +7,7 @@ test("Feature component receives props and then render the text", () => {
   const { getByTestId } = render(
         <Feature text="Contact Form" />  );
 
-  expect(getByTestId("joke-text")).toHaveTextContent("Contact Form");});
+  expect(getByTestId("feature-text")).toHaveTextContent("Contact Form");});
 
 test("Joke component receives props and then render the text", () => {
   const { getByTestId } = render(

@@ -1,9 +1,11 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 import App from './App';
+import Feature from './Feature';
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+
+test("Feature component receives props and then render the text", () => {
+  const { getByTestId } = render(
+        <Feature text="Contact Form" />  );
+
+  expect(getByTestId("joke-text")).toHaveTextContent("Contact Form");});

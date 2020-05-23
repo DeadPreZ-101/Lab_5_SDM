@@ -1,13 +1,12 @@
-/*body {
+body {
     height: calc(100% - 50px);
-    background-image: url("bg4.png");
     background-size: cover;
     background-position: center;
     margin-left: auto;
     margin-right: auto;
     padding: 2%;
 }
-*/
+
 #menu {
     list-style-type: none;
     margin: 0;
@@ -30,8 +29,22 @@ aside.languages {
 
 .languages h3 {
     font-weight: normal;
-    color: white;
-    font-size: 1.6em;
+    color: black;
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.languages h4 {
+    font-weight: normal;
+    color: black;
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.languages p {
+    font-weight: normal;
+    color: black;
+    font-size: 2em;
     margin-bottom: 0.5em;
 }
 

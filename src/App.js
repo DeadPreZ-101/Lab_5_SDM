@@ -5,8 +5,14 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-                <div className="App"/>
-          <h1>Contact Form</h1>
+      <ul id="menu">
+              <li>
+                <nav><a href="home.js">Home</a></nav>
+                <nav><a href="about.html">About</a></nav>
+                <nav><a href="App.js">FAQ</a></nav>
+              </li>
+          </ul>
+    <h1>Contact Form</h1>
 
 <div class="container" />
   <form action="?" id="border"/>
@@ -26,9 +32,8 @@ function App() {
     <label for="FAQ">FAQ</label><br/>
     <textarea id="FAQ" name="FAQ" placeholder="Type your question here.." style={{width: 1000, height: 200}}></textarea><br/><br/>
 
-    <input type="submit" value="Submit" id="ID"/>
+    <input type="submit" value="Submit" id="submit"/>
   <form/>
-<div/>
     </div>
   );
 }
